@@ -1,10 +1,10 @@
 resource "local_file" "devops" {
-  filename = "/home/ubuntu/terraform-local/devops_automated.txt"
-  content = "I want to learn Terraform"
+  filename = "/home/ubuntu/terraform-local/devops_automated1.txt"
+  content = "I want to learn Terraform and Kubernetes"
 }
 
 resource "random_string" "rand-str" {
-length = 6
+length = 7
 special = true
 override_special = "!#$%&*()-_=+[]{}<>:?"
 }
