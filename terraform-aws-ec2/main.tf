@@ -17,6 +17,6 @@ resource "aws_instance" "tf-ec2-instance" {
      ami = "ami-09c8d5d747253fb7a"
      instance_type = "t2.micro"
      tags = {
-               Name = "ec2-instance-creation"
+               name = "ec2-instance-creation"
      }
 }
